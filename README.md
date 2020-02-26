@@ -116,7 +116,9 @@ source ~/.bashrc
 #To Connect
 
 sqlcmd -S localhost -U SA
+
 or
+
 sqlcmd -S 127.0.0.1\\SQLEXPRESS,1433 -U SA
 
 #Create login for server
