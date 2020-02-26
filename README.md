@@ -127,6 +127,7 @@ GO
 #Kill user session
 
 select session_id from sys.dm_exec_sessions where login_name = 'test'
+
 kill id
 
 #Drop user
